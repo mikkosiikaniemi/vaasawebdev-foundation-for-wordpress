@@ -17,11 +17,11 @@
 
 <?php endif; ?>
 
-<div class="small-12 medium-4 large-3 columns">
+	<div class="small-12 medium-4 large-3 columns">
 
-<?php dynamic_sidebar( 'widgets' ); ?>
+	<?php dynamic_sidebar( 'widgets' ); ?>
 
-</div>
+	</div>
 </main>
 
 <?php get_footer(); ?>
