@@ -9,7 +9,6 @@
 
 <body <?php body_class(); ?>>
 
-
 	<nav role="navigation" class="top-bar">
 		<div class="top-bar-left">
 			<ul class="menu">
