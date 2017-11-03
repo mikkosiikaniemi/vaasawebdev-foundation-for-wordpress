@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+dist
+*.swp
+js/theme.min.js
+style.css.map
+style.css
+src/data/.gitkeep
+src/assets/img/.gitkeep
+src/assets/scss/_settings.scss
+src/assets/scss/components/.gitkeep
