@@ -7,6 +7,8 @@ dist
 js/theme.min.js
 style.css.map
 style.css
+.babelrc
+.bowerrc
 src/data/.gitkeep
 src/assets/img/.gitkeep
 src/assets/scss/_settings.scss
