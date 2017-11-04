@@ -16,13 +16,20 @@ To make this theme work, you need to follow the instructions below.
 * Open command prompt.
 * Create a new theme directory under WordPress installation’s `/wp-content/themes`
 * Change to newly created directory
-* Install Foundation via command prompt; follow instructions for [Manually setting up ZURB Template](https://foundation.zurb.com/sites/docs/installation.html#manual-setup). This template comes with ready-made workflow tools utilizing e.g. webpack, Gulp, autoprefixer & BrowserSync.
+* Clone Foundation's template via command prompt using Git (this follows the guidelines for [Manually setting up ZURB Template](https://foundation.zurb.com/sites/docs/installation.html#manual-setup). The template comes with ready-made workflow tools utilizing e.g. webpack, Gulp, autoprefixer & BrowserSync):
 
 ```
 git clone https://github.com/zurb/foundation-zurb-template .
+```
+* Install needed dependencies using Node.js:
+
+```
 npm install
 ```
-  * Note that Foundation can also be installed using Foundation’s own wizard-like CLI tool.
+
+
+
+* Note that Foundation can also be installed using Foundation’s own wizard-like CLI tool.
 
 You can now test that everything works by starting a build process with `npm start` (which in this case is alias to `gulp`).
 
@@ -72,7 +79,7 @@ This theme only contains a few basic files to make navigation menu, title, conte
 
 This code should be on the top of the `src/assets/scss/app.scss` file to make the theme selectable in WordPress' admin.
 
-```
+```css
 /*! ----------------------------------------------------------------------------
 Theme Name: VaasaWebDev Meetup Demo
 Theme URI: https://vaasawebdev.fi
@@ -90,7 +97,7 @@ Note the exclamation mark after the opening `/*` → file minification will remo
 
 These few lines of SCSS should go to `app.scss` as well to make the demo look more beautiful.
 
-```
+```scss
 header {
 	color: $white;
 	padding: $global-padding * 7 0;
